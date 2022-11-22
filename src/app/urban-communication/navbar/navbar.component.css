@@ -1,0 +1,24 @@
+#navbar {
+    background-color:black; 
+}
+    
+.navbar-collapse{
+    margin-left:5%;
+    color:white !important;
+}
+
+.navbar-toggler{
+    color: white;
+    font-size:30px;
+    margin-left:5px;
+}
+
+.bt{
+    margin-right:5px;
+    color:white;
+}
+
+.container a{
+    color: white;
+    font-size:40px
+}

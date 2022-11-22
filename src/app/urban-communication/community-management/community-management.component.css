@@ -1,0 +1,15 @@
+#management{
+    margin-top:60px;
+    background-color: black;
+    color:whitesmoke;
+}
+
+.manage h3{
+    font-family: Marvel;
+    font-size:35px 
+}
+
+.manage p{
+    font-family: Marvel;
+    font-size:20px
+}

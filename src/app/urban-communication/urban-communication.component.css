@@ -1,0 +1,131 @@
+.hover-animation {
+  position: relative;
+  width: 294px;
+  height: 480px;
+  display: inline;
+}
+
+.hover-animation img {
+  position: absolute;
+  left: 0;
+  width: 294px;
+  height: 480px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.hover-animation img.img-front:hover {
+  opacity: 0;
+  cursor: pointer;
+  display: inline;
+}
+
+.home {
+  background-position: center;
+  background-color: black;
+}
+.sliders {
+  background-position: center;
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+#navbar {
+  background-color: black;
+}
+
+.navbar-collapse {
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.navbar-toggler {
+  color: white;
+  font-size: 25px;
+  margin-left: 3%;
+}
+
+.bt {
+  color: white;
+  margin-top: 5px;
+  margin-right: 5%;
+}
+
+.navbar-collapse li {
+  font-family: Marvel !important;
+}
+
+.navbar-collapse a {
+  font-size: 20px;
+}
+
+.sm {
+  margin-right: 30px !important;
+  background-position: center;
+}
+
+#services {
+  background-color: black;
+  margin-top: 0% !important;
+}
+
+#nosprojets{
+  background-color: black;
+  color:whitesmoke;
+  margin-top:0%
+}
+
+.title{
+  color: white;
+  font-family: Marvel;
+  font-size:35px;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  
+}
+
+.container{
+  position: relative;
+}
+.container:hover .overlay {
+  opacity:0.7;
+}
+.text {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  font-family: Marvel !important;
+  margin-top: 50% !important;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ime{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#contact{
+  background-color: black;
+  color:whitesmoke;
+  margin-top:0%;
+}
